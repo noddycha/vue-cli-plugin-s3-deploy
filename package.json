@@ -1,7 +1,7 @@
 {
-  "name": "vue-cli-plugin-s3-deploy",
+  "name": "vue-cli-plugin-s3-deploy-noddycha",
   "version": "4.0.0-rc4",
-  "description": "A vue-cli plugin for deploying your built Vue app to an S3 bucket.",
+  "description": "A noddycha customized vue-cli plugin for deploying your built Vue app to an S3 bucket.",
   "scripts": {
     "test": "AWS_ACCESS_KEY_ID=access-key AWS_SECRET_ACCESS_KEY=secret-key jest --verbose src/test",
     "watch-test": "AWS_ACCESS_KEY_ID=access-key AWS_SECRET_ACCESS_KEY=secret-key jest --watch src/test",
@@ -21,11 +21,11 @@
     "deployment"
   ],
   "main": "index.js",
-  "homepage": "https://github.com/multiplegeorges/vue-cli-plugin-s3-deploy",
+  "homepage": "https://github.com/noddycha/vue-cli-plugin-s3-deploy",
   "author": {
-    "name": "Georges Gabereau",
-    "email": "s3-deploy@georg.es",
-    "url": "https://georg.es"
+    "name": "noddycha",
+    "email": "noddycha@gmail.com",
+    "url": "https://noddycha.com"
   },
   "license": "MIT",
   "private": false,
